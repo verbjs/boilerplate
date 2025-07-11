@@ -1,0 +1,28 @@
+{
+  "name": "bunplate",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot src/main.ts",
+    "start": "BUN_ENV=production bun run src/main.ts",
+    "build": "bun build src/main.ts --outdir ./dist",
+    "lint": "bunx @biomejs/biome check src/",
+    "format": "bunx @biomejs/biome format src/ --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/bun": "^1.2.18",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "rove": "github:wess/rove"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "verb": "file:../verb"
+  }
+}
