@@ -1,5 +1,7 @@
 {
-  "name": "bunplate",
+  "name": "@verb/boilerplate",
+  "author": "Wess Cope",
+  "homepage": "https://verb.codes",
   "module": "index.ts",
   "type": "module",
   "private": true,
