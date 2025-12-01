@@ -1,4 +1,4 @@
-import { createServer, ServerProtocol } from 'verb';
+import { server } from 'verb';
 // @ts-ignore - HTML imports work with Bun but TypeScript doesn't recognize them
 import indexHtml from './frontend/index.html';
 // @ts-ignore
@@ -6,7 +6,7 @@ import apiHtml from './frontend/api.html';
 // @ts-ignore
 import testHtml from './frontend/test.html';
 
-const app = createServer(ServerProtocol.HTTP) as any;
+const app = server.http() as any;
 
 // ** API endpoints ** (Bun routes pattern)
 const users = [
