@@ -2,6 +2,15 @@
 
 A complete tutorial and boilerplate for building modern fullstack applications using Verb framework with Bun's native routing, React frontend, and REST API.
 
+## Part of the Verb Ecosystem
+
+| Package | Description |
+|---------|-------------|
+| [Verb](https://github.com/verbjs/verb) | Fast web framework for Bun |
+| [Hull](https://github.com/verbjs/hull) | Ecto-inspired database toolkit |
+| [Allow](https://github.com/verbjs/allow) | Authentication library |
+| [Hoist](https://github.com/verbjs/hoist) | Deployment platform |
+
 ## 🚀 What You'll Build
 
 By following this tutorial, you'll create a fully functional web application with:
@@ -380,7 +389,7 @@ wsServer.websocket({
 
 ## 📚 Learn More
 
-- **Verb Framework**: [GitHub Repository](https://github.com/wess/verb)
+- **Verb Framework**: [GitHub Repository](https://github.com/verbjs/verb)
 - **Bun Documentation**: [bun.sh/docs](https://bun.sh/docs)
 - **React Documentation**: [react.dev](https://react.dev)
 
